@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-medium"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="390dp"
+        android:padding="15dp"
+        android:text="City"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textSize="28sp"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="100dp"
+        android:padding="23dp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:text="Seoul, South Korea"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:textSize="36sp"
+        android:layout_marginTop="470dp"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif-medium"
+        android:padding="14dp"
+        android:text="Web"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="470dp"
+        android:layout_marginLeft="100dp"
+        android:textSize="25sp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:padding="4dp"
+        android:text="http://e.sookmyung.ac.kr/sookmyungen/index.do"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:textSize="36sp"
+        android:layout_marginTop="550dp"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif-medium"
+        android:padding="20dp"
+        android:text="☎"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="100dp"
+        android:textSize="28sp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:padding="18dp"
+        android:text="+82 02-710-9114"/>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:src="@drawable/campus" />
+
+    <ImageView
+        android:id="@+id/character"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/character" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/smu_character" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/smu_character" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:paddingTop="20dp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/smu_logo" />
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/logo"
+        android:layout_alignParentTop="true"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/holo_blue_dark"
+        android:paddingTop="20dp"
+        android:text="SOOKMYUNG WOMEN'S UNIVERSITY"/>
+
+</RelativeLayout>
